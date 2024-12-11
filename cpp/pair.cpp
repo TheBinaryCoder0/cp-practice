@@ -42,6 +42,30 @@ int main() {
 		cout<<i.first<<" "<<i.second<<endl;
 	}
 
+	// TAKING USER INPUT
+
+	pair<string,int> p3;
+	string s;
+	cin>>s;
+	p3.first = s;
+	int n;
+	cin>>n;
+	p3.second = n;
+
+	cout<<p3.first<<" "<<p3.second<<endl;
+
+	// TAKING USER INPUT IN VECTOR OF PAIR
+	
+	vector<pair<string, int>> v2;
+
+	for(int i=0;i<3;i++){
+		cin>>v[i].first;
+		cin>>v[i].second;
+	}
+
+	for(int i=0;i<3;i++){
+		cout<<v[i].first<<" "<<v[i].second<<endl;
+	}
 
 	return 0;
 }
