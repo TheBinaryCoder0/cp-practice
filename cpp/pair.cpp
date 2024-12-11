@@ -29,12 +29,12 @@ int main() {
 
 	cout<<p1.first<<" "<<p1.second<<endl; 
 
-	pair<string,int> p2{"rajat",25};
+	pair<string,int> p2 = {"rajat",25};
 	cout<<p2.first<<" "<<p2.second<<endl;
 
 	// CREATING A VECTOR OF PAIRS
 
-	vector<pair<string,int>> v{
+	vector<pair<string,int>> v = {
 		{"shreya",27}, {"neelam", 52}, {"vinod", 65}
 	};
 
