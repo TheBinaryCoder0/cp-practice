@@ -58,7 +58,7 @@ int main() {
 
 	// SORTING A LIST
 
-	list<int> l2{1,2,5,7,9,8};
+	list<int> l2 = {1,2,5,7,9,8};
 
 	l2.sort();
 
