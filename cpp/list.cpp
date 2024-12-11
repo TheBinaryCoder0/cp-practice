@@ -20,6 +20,8 @@ int main() {
 	
 	cin.tie(0)->sync_with_stdio(0);
 
+	// DECLARING A LIST AND ADDING VALUES TO THE LAST AND TO THE FRONT
+
 	list<int> l;
 
 	l.push_back(10);
@@ -30,8 +32,14 @@ int main() {
 	}
 
 	cout<<endl;
+
+	// ACCESSING THE FRONT AND BACK VALUES
+
 	cout<<"front: "<<l.front()<<endl;
 	cout<<"back: "<<l.back()<<endl;
+
+
+	// INSERTING A VALUE AND ERASING A VALUE IN THE LIST
 
 	auto it = l.begin();
 	it++;
@@ -47,6 +55,9 @@ int main() {
 
 	cout<<endl;
 
+
+	// SORTING A LIST
+
 	list<int> l2{1,2,5,7,9,8};
 
 	l2.sort();
@@ -55,8 +66,25 @@ int main() {
 		cout<<i<<" ";
 	}
 
+	cout<<endl;
+
+	// TAKING USER INPUT IN LIST
+
+	list<int> l3;
+
+	int n,x;
+	cin>>n;
+
+	for(int i = 0;i<n;i++){
+		cin>>x;
+		l3.push_back(x);
+	}
+
+	for(auto&& i : l3){
+		cout<<i<<" ";
+	}
+
 	return 0;
 }
-
 
 
