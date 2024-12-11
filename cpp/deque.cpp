@@ -20,7 +20,9 @@ int main() {
 	
 	cin.tie(0)->sync_with_stdio(0);
 
+	// DEFINING A DEQUE
 	deque<int> dq;
+
 	dq.push_back(10);
 	dq.push_front(5);
 	dq.push_back(20);
@@ -48,7 +50,20 @@ int main() {
 
 	cout<<endl;
 
+	// RANDOM ACCESS TO ANY ELEMENT IN DEQUE
+
 	cout<<dq[1]<<endl;
+
+
+	// TAKING USER INPUT
+
+	int n;
+	cin>>n;
+	dq.push_back(n);
+
+	for(auto&& i : dq){
+		cout<<i<<" ";
+	}
 
 	return 0;
 }
