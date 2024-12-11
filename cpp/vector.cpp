@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-	vector<int> v1{1,2,3,4,5};
+	vector<int> v1 = {1,2,3,4,5};
 
 	v1.pop_back();
 	v1.push_back(10);
