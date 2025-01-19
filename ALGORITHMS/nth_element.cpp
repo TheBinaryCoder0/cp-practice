@@ -30,7 +30,7 @@ int main() {
 
     cout<<endl;
 
-    // 3rd smallest element will be at the nth position (3rd position)
+    // nth smallest element will be at the nth position (3rd smallest element at 3rd position)
     
     nth_element(v.begin(),v.begin()+2,v.end());
 
